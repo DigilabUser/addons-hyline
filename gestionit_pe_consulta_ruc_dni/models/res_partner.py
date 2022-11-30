@@ -206,7 +206,7 @@ class ResPartner(models.Model):
                 self.estado_contribuyente = d['estado_del_contribuyente']
                 self.name = d['nombre_o_razon_social']
                 self.registration_name = d['nombre_o_razon_social']
-                self.ubigeo = d["ubigeo"]
+                #self.ubigeo = d["ubigeo"]
                 self.street = d['direccion']
                 self.is_company = True
                 self.company_type = "company"
